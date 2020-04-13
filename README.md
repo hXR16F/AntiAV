@@ -14,7 +14,7 @@ To run it use `ready/main.bat`.
 
 # How it works?
 It goes through several procecess:
-* Compressing about 10-20 times
+* Compressing few times
 * Injecting junk code
 * Reducing file size
 * Creating external launcher (only `main.bat` can launch it)
