@@ -1,5 +1,5 @@
 :: Programmed by hXR16F
-:: hXR16F.ar@gmail.com
+:: hXR16F.ar@gmail.com, https://github.com/hXR16F
 
 @echo off&setlocal EnableDelayedExpansion&mode 80,25&echo [+] Drag ^& drop your file into this window and hit enter.&set /p "file=[+] File: "
 for %%i in ("%file%") do set filename=%%~nxi&&call 7z.exe a -tzip file_1.zip -mx7 %file% >nul
