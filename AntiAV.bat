@@ -14,6 +14,8 @@ call 7z.exe a -tzip file.zip -p%key% -mx7 file_!i_2!.zip >nul
 set /a bb=!r!+1
 (
 	echo @echo off>> "main.bat"
+	echo mode 65,10>> "main.bat"
+	echo title AntiAV ^(https://github.com/hXR16F/AntiAV^)>> "main.bat"
 	echo md extracted>> "main.bat"
 	echo ren file.bin file.zip>> "main.bat"
 	echo call 7z.exe e file.zip -p%key% -oextracted >> "main.bat"
