@@ -1,7 +1,7 @@
 <p align="center">
 	<b>AntiAV</b>
 	<br>
-	<i>Anti AntiVirus - make any file undetectable.</i>
+	<i>Anti AntiVirus + Obfuscator - make any file undetectable.</i>
 	<br><br><br>
 	<img alt="Screenshot_1" src="https://user-images.githubusercontent.com/48186982/79117082-6a43ab80-7d8a-11ea-908a-f426a1d53fa7.png">
 </p>
